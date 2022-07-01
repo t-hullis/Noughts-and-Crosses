@@ -2,6 +2,10 @@
     margin: 0;
     padding: 0;
 }
+:root {
+    --boxHight: vmin(10px);
+    --boxWidth: 60vw;
+}
 
 h1 {
     position: absolute;
@@ -19,19 +23,23 @@ body {
 }
 table {
     background-color: black;
-    width: 50vw;
-    height: 60vh;
-    font-size: 70px;
+    aspect-ratio: 1/1;
+    width: 30vw;
+    font-size: 30px;
 }
-div {
-    position: absolute;
-}
+
 .brick {
     background-color: white;
     cursor: pointer;
-    height: 19vh;
+    /* height: 19vh; */
 }
-
+.gameEnds {
+    position: absolute;
+    width: 100vw;
+    height: 100vh;
+    background-color: white;
+    display: none;
+}
 #restart {
     height: 5vh;
     width: 5vw;

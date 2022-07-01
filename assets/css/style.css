@@ -21,16 +21,20 @@ table {
     background-color: black;
     width: 50vw;
     height: 60vh;
+    font-size: 70px;
 }
-
+div {
+    position: absolute;
+}
 .brick {
     background-color: white;
     cursor: pointer;
+    height: 19vh;
 }
 
 #restart {
     height: 5vh;
-    width: 10vw;
+    width: 5vw;
     position: absolute;
     bottom: 5vh;
 }
